@@ -1,0 +1,47 @@
+{
+  "name": "website-test",
+  "version": "1.0.0",
+  "description": ">npm run webpack",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "scripts": {
+    "webpack": "webpack -p",
+    "webpack-dev": "webpack-dev-server --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rene Cabrera Jr.",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-runtime": "^6.23.0",
+    "bootstrap-sass": "^3.3.7",
+    "bootstrap-slider": "^9.7.2",
+    "compass-mixins": "^0.12.10",
+    "createjs-easeljs": "^0.8.2",
+    "createjs-tweenjs": "^0.6.0",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.2.1",
+    "jshint": "^2.9.4",
+    "jshint-loader": "^0.8.4",
+    "node-sass": "^3.13.1",
+    "postcss-loader": "^1.3.3",
+    "sass-loader": "^4.1.1",
+    "spectrum-colorpicker": "^1.8.0",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
