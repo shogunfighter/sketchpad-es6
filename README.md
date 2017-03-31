@@ -6,7 +6,7 @@
 > cd test
 
 ####download this repo and save into your newly created folder
-> npm clone https://github.com/shogunfighter/DynamicWebDev
+> npm clone https://github.com/shogunfighter/sketchpad-es6
 
 ####install the dependencies
 > npm install
@@ -26,4 +26,4 @@
 
 > npm run webpack-dev
 
-######this will create a development server accessible at localhost:8080
+######this will create a development server accessible at localhost:9000
