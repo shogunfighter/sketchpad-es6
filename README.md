@@ -1,19 +1,15 @@
 ##Intro
-####Make a folder where you want to put your new project
+####make a folder where you want to put your new project
 	
 > mkdir test
 
 > cd test
 
 ####download this repo and save into your newly created folder
-> npm clone https://github.com/shogunfighter/sketchpad-es6
+> git clone https://github.com/shogunfighter/sketchpad-es6
 
 ####install the dependencies
 > npm install
-
-
----
-
 
 ##Development and deployment
 ####To build the project for distribution:
