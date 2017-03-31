@@ -6,7 +6,7 @@
 > cd test
 
 ####download this repo and save into your newly created folder
-> npm clone https://github.com/shogunfighter/sketchpad-es6
+> git clone https://github.com/shogunfighter/sketchpad-es6
 
 ####install the dependencies
 > npm install
