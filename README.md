@@ -1,25 +1,35 @@
-##Intro
-####make a folder where you want to put your new project
+## Intro ##
+#### make a folder where you want to put your new project ####
 	
-> mkdir test
+```
+$ mkdir test
+$ cd test
+```
 
-> cd test
+#### download this repo and save into your newly created folder ####
 
-####download this repo and save into your newly created folder
-> git clone https://github.com/shogunfighter/sketchpad-es6
+```
+$ git clone https://github.com/shogunfighter/sketchpad-es6
+```
 
-####install the dependencies
-> npm install
+#### install the dependencies ####
 
-##Development and deployment
-####To build the project for distribution:
+```
+$ npm install
+```
 
-> npm run webpack
+## Development and deployment ##
+#### To build the project for distribution: ####
 
-######this will create a dist folder for your deployment
+```
+$ npm run webpack
+```
 
-####To enable development server:
+#### To enable development server: ####
 
-> npm run webpack-dev
+```
+$ npm run webpack-dev
 
-######this will create a development server accessible at localhost:9000
+```
+
+###### this will create a development server accessible at localhost:9000 ######
